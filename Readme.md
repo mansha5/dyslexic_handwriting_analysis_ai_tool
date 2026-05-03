@@ -113,10 +113,10 @@ The trained model is not included due to size limitations.
 ## Demo
 
 ### Extracted text and cleaned text  
-![Output](screenshots/texts.png)  
+![Extracted text and cleaned text](./screenshots/texts.png)
 
 ### Parent Feedback Summary  
-![Output](screenshots/feedback.png)  
+![Parent Feedback Summary](./screenshots/feedback.png)
 
 
 ## Evaluation

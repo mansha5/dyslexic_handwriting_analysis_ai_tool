@@ -1,0 +1,64 @@
+/* styles/theme.qss - light Google Classroom style for DyslexAI */
+
+QWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                               stop:0 #ffffff, stop:1 #f6fbff);
+    color: #202124;
+    font-family: "Lexend", "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* App title */
+#appTitle {
+    font-size: 32px;
+    color: #1a73e8; /* Google blue */
+}
+
+/* Subtitle / small notes */
+#subtitle, #note {
+    color: #5f6368;
+}
+
+/* Header title */
+#headerTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #202124;
+}
+
+/* Status label */
+#statusLabel {
+    color: #3c4043;
+}
+
+/* Buttons */
+QPushButton {
+    background: linear-gradient(90deg, #4285F4, #2b6edb);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background: linear-gradient(90deg, #2b6edb, #1a4fb0);
+}
+
+/* Text fields */
+QLineEdit, QTextEdit {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 8px;
+    background: #ffffff;
+}
+
+/* Progress bar */
+QProgressBar {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background: #f1f3f4;
+}
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #34A853, stop:1 #0f9d58);
+}
